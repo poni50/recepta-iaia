@@ -1,0 +1,77 @@
+@font-face{
+    font-family: fuente1;
+    src: url("../fonts/Comfortaa-Regular.ttf");
+}
+
+header{
+    margin: 0 auto;
+    max-width: 940px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin: 0 auto;
+    max-width: 940px;
+    text-align: center;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+p, h1, h2, li{
+    font-family: "fuente1", Arial, Helvetica, sans-serif;
+}
+section{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 60px;
+}
+img{
+    margin-top: 40px;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px gray solid;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+h2{
+    font-size: 42px;
+    color: black;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+ul, ol{
+    text-align: left;
+    margin-left: 40px;
+}
+
+ul{
+    
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+li{
+    font-size: 17px;
+    margin-top: 5px;
+}
